@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Lab 4 by Kim Johnson</title>
+		<link rel="stylesheet" href="style1.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Registration</h1>
+				<p>Please enter the following information. Fields marked with an asterisk (<span class="required">*</span>) are required.</p>
+			</header>
+			<div id="content">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<table>
+								<td>
+				*First Name:<input="text" name="firstName">
+				<input>
+				</td>
+				</table>
+				<table>
+								<td>
+				*Last Name: <input="text" name="firstName">
+				<input>
+				</td>
+				</table>
+				<table>
+				<td>
+				*Address:<input="text" name="address" maxlength="40">
+				<input>
+				</td>
+				</table>
+				<table>
+				<td>
+				*Province:
+								<Select>
+				<option value="BC">BC</option>
+				<option value="AB">AB</option>
+				<option value="SK">SK</option>
+				<option value="MB">MB</option>
+				<option value="ON">ON</option>
+				<option value="QC">QC</option>
+				<option value="NB">NB</option>
+				<option value="NS">NS</option>
+				<option value="PE">PE</option>
+				<option value="NF">NF</option>
+				<option value="YK">YK</option>
+				<option value="NWT">NWT</option>
+				<option value="NU">NU</option>
+				
+				</select>
+			</td>
+			</table>
+			<table>
+				<td>
+				*Postal Code: <input="text" name="Postal Code" maxlength="6">
+				<input>
+				</td>
+				</table>
+				<table>
+			<td>
+				*Email Address: <input="text" name="Email Address">
+				<input>
+				</td>
+				</table>
+				<table>
+				
+				<td>
+				*Home Phone: <input="text" name="Home phone">
+				<input>
+				</td>
+				</table>
+				<table>
+				
+			<td>
+				Work Phone: <input="text" name="Work Phone">
+				<input>
+				</td>
+				</table>
+																			</fieldset>
+			<fieldset>
+				<legend>Payment Information</legend>
+				<lable><input type="radio" name="creditCard" required value="creditCardVisa"></label>
+				<img src="visa.jpg" alt="visa" style="width:50px;height:50px">
+									<lable><input type="radio" name="creditCard" required value="creditCardMasterCard"></lable>
+									<img src="mastercard.jpg" alt="mastercard" style="width:50px;height:50px">
+				<lable><input type="radio" name="creditCard" required value="creditCardAmex"></lable>
+				<img src="amex.jpg" alt="amex" style="widtth:50px;height:50px">
+				
+			<table>
+			<td>
+			Credit Card Number: <input="text" name="Credit Card Number">
+			<input>
+			</td>
+			</table>
+			<table>
+			<td>
+			Expiry Date:<input="text" name="Expiry Date" maxlength="5">
+			<input>
+			</td>
+			</table>
+																					</fieldset>
+			<fieldset>
+				<legend>Agree and Submit</legend>
+				<p>Agree To Terms and Conditions</p>
+				<lable><input type="checkbox" name="Terms" value="Yes">Yes</lable>
+								<button>Submit</button>
+								<button>Reset</button>
+				
+				
+					
+			</fieldset>
+			</div><!-- End Content -->
+			<footer>	
+				<p>&copy;2013 CST8285. All rights reserved.</p>
+			</footer>
+		</div><!-- End Wrapper -->
+	</body>
+</html>
